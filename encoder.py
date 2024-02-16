@@ -82,7 +82,7 @@ def add_audio_to_video(video_path, audio_path, output_path):
 
 # Example usage
 if __name__ == "__main__":
-    file_path = 'filenamehere'
+    file_path = 'image.png'
     audio_path = 'sneakysnitch.mp3'
     binary_data = file_to_binary(file_path)
     frames = binary_to_frames(binary_data)

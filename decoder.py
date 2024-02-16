@@ -43,10 +43,10 @@ def binary_to_file(binary_data, output_file_path):
 
 # Example usage
 if __name__ == "__main__":
-    video_path = 'video file here'
+    video_path = 'data_video.mp4'
     frames = video_to_frames(video_path)
     binary_data = frames_to_binary(frames)
-    binary_to_file(binary_data, 'output file here')
+    binary_to_file(binary_data, 'output2.png')
 
 end_time = time.time()
 print(f"Decoding completed in {end_time - start_time:.2f} seconds.")
